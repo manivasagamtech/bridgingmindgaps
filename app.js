@@ -234,8 +234,8 @@ function showNotification(message, type = 'info') {
         }
         
         .notification-success {
-            border-left: 4px solid #7C9885;
-            background: linear-gradient(135deg, rgba(124, 152, 133, 0.1), rgba(168, 230, 207, 0.1));
+            border-left: 4px solid #8FA68E;
+            background: linear-gradient(135deg, rgba(143, 166, 142, 0.1), rgba(168, 191, 167, 0.1));
         }
         
         .notification-error {
@@ -245,7 +245,7 @@ function showNotification(message, type = 'info') {
         
         .notification-message {
             flex: 1;
-            color: #2D3748;
+            color: #2D3D2D;
             font-weight: 500;
         }
         
@@ -254,7 +254,7 @@ function showNotification(message, type = 'info') {
             border: none;
             font-size: 20px;
             cursor: pointer;
-            color: #718096;
+            color: #6A7A6A;
             padding: 0;
             width: 24px;
             height: 24px;
@@ -264,7 +264,7 @@ function showNotification(message, type = 'info') {
         }
         
         .notification-close:hover {
-            color: #2D3748;
+            color: #2D3D2D;
         }
         
         @keyframes slideInRight {
